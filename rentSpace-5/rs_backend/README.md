@@ -1,4 +1,4 @@
-
+https://docs.google.com/document/d/1TeV3b0cQObk3Ujd4HD36hj7-kCu9A1uWqlB2p3kzWQY/edit?usp=sharing
 
 Post request: add users (register first time)
 -------------------
@@ -59,7 +59,7 @@ key: authorization
 Value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJhZG1pbiIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2NjQ0MzAxODF9.tQi2rUmWhBmHv5St792xLHWgAuKkIeSn0RxEtFn7xIM
 
 Body contains:
-{"street": "1234 DirtDrive", "city": "San Diego", "state": "CA", "zip":92331, "property_type":1, "cost":900, "property_owner":"testuser4"}
+{"street": "1234 DirtDrive", "city": "San Diego", "state": "CA", "zip":92331, "property_type":1, "cost":900, "description: "Beautiful Yard","property_owner":"testuser4"}
 
 
 Post
@@ -84,7 +84,3 @@ Body Request:
 Get request to get ones listings
 
 http://localhost:3001/property?property_owner=testuser
--------------
-{
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTY2NTUxNDE5Nn0.stjHkh-dKOtgc1cHVGx74PrwkHPxkhpau7vTfK-G0eA"
-}
