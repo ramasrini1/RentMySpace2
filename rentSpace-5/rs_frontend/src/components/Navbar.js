@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { useAuth } from './auth';
-
+import logo from './assets/logo.png';
+import "./Navbar.css";
 
 export const Navbars = () => {
   const auth = useAuth()
@@ -15,7 +16,7 @@ export const Navbars = () => {
 return (
   <nav className="container mt-4">
       <NavLink to='/' style={navLinkStyles}>
-        <b style={{ color: "red" }}>RMS</b>
+        <b style={{ color: "red" }}><a href="" className="logo"><img className="logo" src={logo} alt=""></img></a> RMS</b>
       </NavLink>
       <NavLink to='/' style={navLinkStyles}>
         Home
